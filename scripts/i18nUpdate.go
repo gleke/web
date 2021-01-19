@@ -10,9 +10,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hexya-erp/hexya/src/i18n"
-	"github.com/hexya-erp/hexya/src/i18n/translations"
-	"github.com/hexya-erp/hexya/src/tools/strutils"
+	"github.com/gleke/hexya/src/i18n"
+	"github.com/gleke/hexya/src/i18n/translations"
+	"github.com/gleke/hexya/src/tools/strutils"
 )
 
 // A customMessage holds the custom translation string for the given ID

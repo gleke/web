@@ -12,12 +12,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/security"
-	"github.com/hexya-erp/hexya/src/server"
-	"github.com/hexya-erp/hexya/src/tools/assets"
-	"github.com/hexya-erp/pool/h"
-	"github.com/hexya-erp/pool/q"
+	"github.com/gleke/hexya/src/models"
+	"github.com/gleke/hexya/src/models/security"
+	"github.com/gleke/hexya/src/server"
+	"github.com/gleke/hexya/src/tools/assets"
+	"github.com/gleke/pool/h"
+	"github.com/gleke/pool/q"
 )
 
 const bootstrapScssPath = "static/web/lib/bootstrap/scss"

@@ -4,8 +4,8 @@
 package web
 
 import (
-	"github.com/hexya-erp/hexya/src/models/security"
-	"github.com/hexya-erp/pool/h"
+	"github.com/gleke/hexya/src/models/security"
+	"github.com/gleke/pool/h"
 )
 
 func init() {

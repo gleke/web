@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/security"
-	"github.com/hexya-erp/hexya/src/tests"
-	_ "github.com/hexya-erp/hexya/src/tests/testllmodule"
+	"github.com/gleke/hexya/src/models"
+	"github.com/gleke/hexya/src/models/security"
+	"github.com/gleke/hexya/src/tests"
+	_ "github.com/gleke/hexya/src/tests/testllmodule"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

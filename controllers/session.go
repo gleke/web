@@ -9,13 +9,13 @@ import (
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/hexya-addons/web/webtypes"
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/security"
-	"github.com/hexya-erp/hexya/src/models/types"
-	"github.com/hexya-erp/hexya/src/server"
-	"github.com/hexya-erp/pool/h"
-	"github.com/hexya-erp/pool/q"
+	"github.com/gleke/web/webtypes"
+	"github.com/gleke/hexya/src/models"
+	"github.com/gleke/hexya/src/models/security"
+	"github.com/gleke/hexya/src/models/types"
+	"github.com/gleke/hexya/src/server"
+	"github.com/gleke/pool/h"
+	"github.com/gleke/pool/q"
 	"github.com/spf13/viper"
 )
 

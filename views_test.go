@@ -6,10 +6,10 @@ package web
 import (
 	"testing"
 
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/security"
-	"github.com/hexya-erp/hexya/src/tools/xmlutils"
-	"github.com/hexya-erp/pool/h"
+	"github.com/gleke/hexya/src/models"
+	"github.com/gleke/hexya/src/models/security"
+	"github.com/gleke/hexya/src/tools/xmlutils"
+	"github.com/gleke/pool/h"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

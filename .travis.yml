@@ -11,7 +11,7 @@ services:
   - postgresql
 
 install:
-  - go install github.com/hexya-erp/hexya
+  - go install github.com/gleke/hexya
   - npm install sass -g
 
 before_script:

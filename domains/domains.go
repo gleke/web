@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/operator"
-	"github.com/hexya-erp/hexya/src/tools/logging"
-	"github.com/hexya-erp/hexya/src/tools/strutils"
+	"github.com/gleke/hexya/src/models"
+	"github.com/gleke/hexya/src/models/operator"
+	"github.com/gleke/hexya/src/tools/logging"
+	"github.com/gleke/hexya/src/tools/strutils"
 )
 
 // A Domain is a list of search criteria (DomainTerm) in the form of

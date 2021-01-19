@@ -16,15 +16,15 @@ package web
 
 import (
 	// Loading dependencies as blank imports
-	_ "github.com/hexya-addons/base"
-	"github.com/hexya-addons/web/controllers"
-	"github.com/hexya-erp/hexya/src/i18n/translations"
+	_ "github.com/gleke/base"
+	"github.com/gleke/web/controllers"
+	"github.com/gleke/hexya/src/i18n/translations"
 
 	// Loading controllers package
-	_ "github.com/hexya-addons/web/controllers"
-	"github.com/hexya-addons/web/scripts"
-	"github.com/hexya-erp/hexya/src/server"
-	"github.com/hexya-erp/hexya/src/tools/logging"
+	_ "github.com/gleke/web/controllers"
+	"github.com/gleke/web/scripts"
+	"github.com/gleke/hexya/src/server"
+	"github.com/gleke/hexya/src/tools/logging"
 )
 
 const (

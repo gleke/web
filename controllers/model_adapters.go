@@ -6,10 +6,10 @@ package controllers
 import (
 	"fmt"
 
-	"github.com/hexya-addons/web/domains"
-	"github.com/hexya-addons/web/odooproxy"
-	"github.com/hexya-addons/web/webtypes"
-	"github.com/hexya-erp/hexya/src/models"
+	"github.com/gleke/web/domains"
+	"github.com/gleke/web/odooproxy"
+	"github.com/gleke/web/webtypes"
+	"github.com/gleke/hexya/src/models"
 )
 
 // MethodAdapters is a map giving the adapter to call for each method

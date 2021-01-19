@@ -7,10 +7,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/hexya-erp/hexya/src/models/security"
-	"github.com/hexya-erp/hexya/src/models/types"
-	"github.com/hexya-erp/hexya/src/server"
-	"github.com/hexya-erp/hexya/src/tools/hweb"
+	"github.com/gleke/hexya/src/models/security"
+	"github.com/gleke/hexya/src/models/types"
+	"github.com/gleke/hexya/src/server"
+	"github.com/gleke/hexya/src/tools/hweb"
 )
 
 // LoginGet is called when the client calls the login page

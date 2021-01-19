@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hexya-addons/web/client"
-	"github.com/hexya-addons/web/controllers"
-	"github.com/hexya-addons/web/domains"
-	"github.com/hexya-erp/hexya/src/models/types"
-	"github.com/hexya-erp/hexya/src/server"
+	"github.com/gleke/web/client"
+	"github.com/gleke/web/controllers"
+	"github.com/gleke/web/domains"
+	"github.com/gleke/hexya/src/models/types"
+	"github.com/gleke/hexya/src/server"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

@@ -7,12 +7,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/hexya-addons/web/domains"
-	"github.com/hexya-erp/hexya/src/actions"
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/operator"
-	"github.com/hexya-erp/hexya/src/tools/nbutils"
-	"github.com/hexya-erp/hexya/src/views"
+	"github.com/gleke/web/domains"
+	"github.com/gleke/hexya/src/actions"
+	"github.com/gleke/hexya/src/models"
+	"github.com/gleke/hexya/src/models/operator"
+	"github.com/gleke/hexya/src/tools/nbutils"
+	"github.com/gleke/hexya/src/views"
 )
 
 // FieldsViewGetParams is the args struct for the FieldsViewGet function
