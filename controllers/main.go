@@ -78,6 +78,8 @@ var (
 		"/static/web/src/scss/web.zoomodoo.scss",
 		"/static/web/src/scss/fontawesome_overridden.scss",
 	}
+	BackendLess = []string{}
+	BackendJS   = []string{}
 	// BackendScss is the list of Scss assets to import by the web client
 	// that are specific to the backend. All scss assets are
 	// cat'ed together in the given order before being compiled.
