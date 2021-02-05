@@ -93,12 +93,13 @@ var Session = core.Class.extend(mixins.EventDispatcherMixin, {
                 return promise.then(function () { return self.load_modules(); });
             }
             return Promise.all([
-                    promise,
-                    self.rpc('/web/webclient/bootstrap_translations', {mods: self.module_list})
-                        .then(function (trans) {
-                            _t.database.set_bundle(trans);
-                        })
-                    ]);
+                promise,
+                self.rpc('/web/webclient/translations', {mods: self.module_list})
+                    /*self.rpc('/web/webclient/bootstrap_translations', {mods: self.module_list})*/
+                    .then(function (trans) {
+                        _t.database.set_bundle(trans);
+                    })
+            ]);
         });
     },
     session_is_valid: function () {
